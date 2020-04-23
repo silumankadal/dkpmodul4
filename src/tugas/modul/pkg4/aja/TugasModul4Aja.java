@@ -7,7 +7,7 @@ public class TugasModul4Aja {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         String nama;
-        int kerjaan,hari,z,gaji,umur;
+        int kerjaan,y,z,gaji,umur;
         float ipk;
         NewClass NewClass = new NewClass();
 
@@ -75,10 +75,10 @@ public class TugasModul4Aja {
         if(z==1){
             System.out.println("\n1.OB\n2.Manager\n3.Direktur");
             System.out.print ("Lu keterima di mana? : ");
-            hari = input.nextInt();
+            y = input.nextInt();
             gaji = 0;
             
-            for (int i = 1; i <= hari; i++) {
+            for (int i = 1; i <= y; i++) {
                 if (i % 3 == 0) {
                     gaji += 100000;
                 } else {
