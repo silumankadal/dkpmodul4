@@ -2,15 +2,13 @@ package tugas.modul.pkg4.aja;
 import java.util.Scanner;
 
 public class TugasModul4Aja {
-
-    
+  
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         String nama;
         int kerjaan,y,z,gaji,umur;
         float ipk;
         NewClass NewClass = new NewClass();
-
         NewClass.nama("Kelompok 65");
         NewClass.aplikasi();
         System.out.print ("Masukkan Nama : ");
